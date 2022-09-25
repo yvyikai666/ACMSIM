@@ -2,6 +2,7 @@
 #include "ACMSim.h"
 
 #define VVVF_CONTROL 1
+//#include "pythonrun.h"
 
 struct InductionMachineSimulated IM;
 
@@ -183,6 +184,7 @@ int main()
 
     /* Fade out */
     system("python ../ACMPlot.py");
+//    system("where python");
     // getch();
     // system("pause");
     // system("exit");
