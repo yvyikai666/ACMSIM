@@ -6,7 +6,7 @@
 
 struct InductionMachineSimulated IM;
 
-void IM_init() // 初始化
+void IM_init() // 初始化感应电机（其实就和一个只有属性而没有方法的类一样）
 {
     int i;
     for (i = 0; i < 5; ++i)
@@ -183,7 +183,7 @@ int main()
     fclose(fw);
 
     /* Fade out */
-    system("python ../ACMPlot.py");
+    system("D:/Desktop/C_Cpp/ACMSIM/venv/Scripts/python.exe ../ACMPlot.py");
 //    system("where python");
     // getch();
     // system("pause");

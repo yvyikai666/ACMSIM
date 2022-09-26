@@ -21,7 +21,7 @@
 /* How long should I go? */
 #define NUMBER_OF_LINES (200000)
 
-#define IM_TS 1.25e-4
+#define IM_TS 1.25e-4  // 采样时间间隔
 #define IM_TS_INVERSE 8000
 #define DOWN_FREQ_EXE 2
 #define DOWN_FREQ_EXE_INVERSE 0.5
